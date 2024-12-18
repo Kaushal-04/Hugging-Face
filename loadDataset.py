@@ -2,6 +2,7 @@ from datasets import load_dataset
 
 # Load the IMDB dataset
 dataset = load_dataset("imdb")
+# imdb is a moview review database
 
 # Fetch a review from the training set
 review_number = 42
